@@ -19,7 +19,10 @@
 Translate file srt yêu cầu [Node.js](https://nodejs.org/) v14+ để chạy.
 
 ```sh
+
 cd Translate
+
+git clone https://github.com/zvw180/Translate-file-srt.git
 
 npm install
 
