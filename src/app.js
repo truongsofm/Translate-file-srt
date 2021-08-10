@@ -1,6 +1,6 @@
 const axios = require('axios');
-const {Translate} = require('@google-cloud/translate').v2;
-require('dotenv').config();
+//const {Translate} = require('@google-cloud/translate').v2;
+//require('dotenv').config();
 const fs = require('fs');
 const path = require("path");
 const readline = require('readline').createInterface({
@@ -22,11 +22,11 @@ readline.question('  ________      ____          __  __  ___   ___  \n' +
         //Translate to
         const target = 'vi';
 
-        const CREDENTIALS = JSON.parse(process.env.CREDENTIALS);
-        const translate = new Translate({
-            credentials: CREDENTIALS,
-            projectId: CREDENTIALS.project_id
-        });
+        //const CREDENTIALS = JSON.parse(process.env.CREDENTIALS);
+        //const translate = new Translate({
+            // credentials: CREDENTIALS,
+           // projectId: CREDENTIALS.project_id
+        //});
 
 
         async function nameFile() {
